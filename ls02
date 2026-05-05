@@ -1,0 +1,4 @@
+Vi phạm tính duy nhất (Uniqueness): 
+Trong thực tế, có rất nhiều sinh viên trùng tên nhau (ví dụ: cùng là Nguyễn Văn A). Nếu không có mã định danh khác, hệ thống sẽ coi tất cả những người trùng tên này là một người duy nhất. 
+Sai lệch nghiệp vụ mượn/trả: Thủ thư sẽ không thể phân biệt được ai là người thực sự đang mượn sách và ai là người đang trả sách nếu họ trùng tên. Điều này dẫn đến việc ghi nhận nhầm lẫn, mất mát tài sản của thư viện.
+Không thể thiết lập Khóa chính (Primary Key): Một khóa chính bắt buộc phải là duy nhất và không được để trống. Vì tên có thể trùng, nó không đủ điều kiện để làm khóa chính cho thực thể sinh viên. 
